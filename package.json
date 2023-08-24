@@ -1,11 +1,11 @@
 {
 	"license": "MIT",
 	"main": "main.js",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"name": "observe-js",
 	"keywords": [ "nodejs" ],
 	"author": "becerraenmanuel",
 	"scripts": { "test": "node test" },
 	"repository": "https://github.com/EDBC-REPO-NPM/observer-js",
-	"description": "Free and opensource backend framework for nodejs"
+	"description": "Free and opensource state manager framework for nodejs"
 }
