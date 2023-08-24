@@ -2,10 +2,10 @@
 	"license": "MIT",
 	"main": "main.js",
 	"version": "0.1.0",
-	"name": "observe-js",
+	"name": "molly-state",
 	"keywords": [ "nodejs" ],
 	"author": "becerraenmanuel",
 	"scripts": { "test": "node test" },
-	"repository": "https://github.com/EDBC-REPO-NPM/observer-js",
+	"repository": "https://github.com/EDBC-REPO-NPM/molly-state",
 	"description": "Free and opensource state manager framework for nodejs"
 }

@@ -1,21 +1,21 @@
-# observer-js
+# molly-state
 
-observer-js is a lightweight package for controlling objects as states in Node.js. It provides a simple and intuitive API for observing changes to objects and triggering events based on those changes.
+molly-state is a lightweight package for controlling objects as states in Node.js. It provides a simple and intuitive API for observing changes to objects and triggering events based on those changes.
 
 ## Installation
 
-You can install observer-js using npm:
+You can install molly-state using npm:
 
 ```
-npm install observer-js
+npm install molly-state
 ```
 
 ## Usage
 
-To use observer-js, simply require the package and create an observer object:
+To use molly-state, simply require the package and create an observer object:
 
 ```javascript
-const state = require('observer-js');
+const state = require('molly-state');
 
 ppt = new state({
     "v1": 10,
@@ -36,4 +36,4 @@ Contributions are welcome! If you find a bug or have a feature request, please o
 
 ## License
 
-observer-js is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+molly-state is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
