@@ -36,6 +36,8 @@ class Output {
 
     /*---------------------------------------------------------*/
 
+    once( ...args ){ return this.obsrv.once( ...args ); }
+
     off( ...args ){ return this.obsrv.off( ...args ); }
 
     on( ...args ){ return this.obsrv.on( ...args ); }
