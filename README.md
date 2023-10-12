@@ -23,7 +23,7 @@ ppt = new state({
     "v3": 1000.50
 });
 
-ppt.observeField("v1",( prv, act )=>{
+ppt.on("v1",( prv, act )=>{
     console.log( `event:> prv: ${prv}, act: ${act}` );
 }); 
 
