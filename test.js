@@ -6,15 +6,15 @@ ppt = new state({
     "v3": 1000.50
 });
 
-ppt.observeField("v1",( prv, act )=>{
+ppt.on("v1",( prv, act )=>{
     console.log( `event:> prv: ${prv}, act: ${act}` );
 }); 
 
-ppt.observeField("v2",( prv, act )=>{
+ppt.on("v2",( prv, act )=>{
     console.log( `event:> prv: ${prv}, act: ${act}` );
 }); 
 
-ppt.observeField("v3",( prv, act )=>{
+ppt.on("v3",( prv, act )=>{
     console.log( `event:> prv: ${prv}, act: ${act}` );
 }); 
 
